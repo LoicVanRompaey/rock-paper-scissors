@@ -19,4 +19,8 @@ button {
   justify-content: center;
   font-size: large; }
 
+.images {
+  display: flex;
+  justify-content: center; }
+
 /*# sourceMappingURL=Index.css.map */
