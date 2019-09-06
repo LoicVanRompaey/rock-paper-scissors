@@ -1,4 +1,22 @@
 body {
-  color: red; }
+  width: 90%; }
+
+table {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: auto; }
+
+button {
+  width: 150px;
+  height: auto;
+  margin-right: 50px;
+  font-size: large; }
+
+.explanations {
+  display: flex;
+  justify-content: center;
+  font-size: large; }
 
 /*# sourceMappingURL=Index.css.map */

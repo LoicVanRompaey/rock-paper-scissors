@@ -66,4 +66,17 @@ var AIsign;
         }
     });
 
+    document.getElementById("mystery").addEventListener("click", function () {
+        var gamble = randomGenerateInt(0,20);
+        console.log(gamble);
+
+        if(gamble >10 && gamble %2 === 0){
+            alert("BOOM, you nuked the enemy")
+        }else{
+            alert("You got WRECKED son! I think a midget even stole your wallet while you were getting your ass kicked!")
+        }
+
+
+    })
+
 })();
