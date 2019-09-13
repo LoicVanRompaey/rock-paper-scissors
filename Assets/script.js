@@ -57,12 +57,12 @@ var losscounter = document.getElementById("loss");
 
         if (AIsign === "rock") {
             alert("you win!");
-            win++
+            win++;
         }
 
         if (AIsign === "scissors") {
             alert("you lose!");
-            loss++
+            loss++;
         }
 
         if (AIsign === "paper") {
@@ -70,12 +70,13 @@ var losscounter = document.getElementById("loss");
         }
 
         if (AIsign === "lizard") {
-            alert("you lose")
+            alert("you lose");
+            loss++;
         }
 
         if (AIsign === "spock") {
             alert("you win");
-            win++
+            win++;
         }
     });
 
@@ -171,9 +172,7 @@ var losscounter = document.getElementById("loss");
         }
 
     });
-
-    wincounter = win.toString();
-    losscounter= loss.toString();
-
+    wincounter =win;
+    losscounter= loss;
 
 })();
