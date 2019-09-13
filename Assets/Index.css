@@ -11,7 +11,7 @@ table {
 button {
   width: 150px;
   height: auto;
-  margin-right: 50px;
+  margin: auto;
   font-size: large; }
 
 .explanations {
