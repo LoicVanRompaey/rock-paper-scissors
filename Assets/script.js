@@ -38,7 +38,7 @@ var losscounter = document.getElementById("loss");
         if (AIsign === "lizard") {
             alert("you win");
             win++;
-            console.log(win)
+            console.log(win);
         }
 
         if (AIsign === "spock") {
@@ -172,8 +172,8 @@ var losscounter = document.getElementById("loss");
 
     });
 
-    wincounter = win;
-    losscounter= loss;
+    wincounter = win.toString();
+    losscounter= loss.toString();
 
 
 })();
